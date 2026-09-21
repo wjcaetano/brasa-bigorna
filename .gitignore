@@ -1,0 +1,13 @@
+.godot/
+build/
+dist/
+*.tmp
+*.log
+*.ipa
+*.pck
+.DS_Store
+.env
+.env.*
+export_credentials.cfg
+*.p12
+*.mobileprovision

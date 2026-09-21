@@ -1,0 +1,5 @@
+[
+  {"id":"hook","name":"Gancho da cozinha","client":"Marta, a cozinheira","description":"Uma ferragem simples para organizar a cozinha da vila.","material":"iron","heat_min":40,"heat_max":75,"reward":24},
+  {"id":"chisel","name":"Formão do carpinteiro","client":"Tomás, o carpinteiro","description":"Uma ferramenta para os novos móveis da escola.","material":"steel","heat_min":50,"heat_max":80,"reward":34},
+  {"id":"knife","name":"Faca do festival","client":"Lia, a padeira","description":"Um utensílio de cozinha para preparar a festa da colheita.","material":"steel","heat_min":45,"heat_max":78,"reward":32}
+]

@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "P-01",
+    "parent": null,
+    "team": "Planejamento",
+    "title": "Fechar visão; separar demo/MVP/expansões; registrar hipóteses",
+    "status": "em_revisao",
+    "depends_on": [],
+    "acceptance": "Escopo e exclusões explícitos e alinhados ao pedido"
+  },
+  {
+    "id": "P-01.1",
+    "parent": "P-01",
+    "team": "Planejamento",
+    "title": "Fechar visão",
+    "status": "em_revisao",
+    "depends_on": [],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de P-01: Escopo e exclusões explícitos e alinhados ao pedido"
+  },
+  {
+    "id": "P-01.2",
+    "parent": "P-01",
+    "team": "Planejamento",
+    "title": "separar demo/MVP/expansões; registrar hipóteses",
+    "status": "em_revisao",
+    "depends_on": [
+      "P-01.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de P-01: Escopo e exclusões explícitos e alinhados ao pedido"
+  },
+  {
+    "id": "O-01",
+    "parent": null,
+    "team": "Orquestração",
+    "title": "Inspecionar runtime; localizar engine; verificar recursos de exportação; registrar limitações",
+    "status": "em_revisao",
+    "depends_on": [],
+    "acceptance": "Capacidades reais documentadas, sem inferir suporte iOS"
+  },
+  {
+    "id": "O-01.1",
+    "parent": "O-01",
+    "team": "Orquestração",
+    "title": "Inspecionar runtime; localizar engine",
+    "status": "em_revisao",
+    "depends_on": [],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de O-01: Capacidades reais documentadas, sem inferir suporte iOS"
+  },
+  {
+    "id": "O-01.2",
+    "parent": "O-01",
+    "team": "Orquestração",
+    "title": "verificar recursos de exportação; registrar limitações",
+    "status": "em_revisao",
+    "depends_on": [
+      "O-01.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de O-01: Capacidades reais documentadas, sem inferir suporte iOS"
+  },
+  {
+    "id": "S-01",
+    "parent": null,
+    "team": "Segurança",
+    "title": "Inventariar skills/plugins candidatos; ler instruções; avaliar origem/licença; selecionar apenas úteis",
+    "status": "em_revisao",
+    "depends_on": [],
+    "acceptance": "Lista com URL, função, restrição e decisão de uso"
+  },
+  {
+    "id": "S-01.1",
+    "parent": "S-01",
+    "team": "Segurança",
+    "title": "Inventariar skills/plugins candidatos; ler instruções",
+    "status": "em_revisao",
+    "depends_on": [],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de S-01: Lista com URL, função, restrição e decisão de uso"
+  },
+  {
+    "id": "S-01.2",
+    "parent": "S-01",
+    "team": "Segurança",
+    "title": "avaliar origem/licença; selecionar apenas úteis",
+    "status": "em_revisao",
+    "depends_on": [
+      "S-01.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de S-01: Lista com URL, função, restrição e decisão de uso"
+  },
+  {
+    "id": "R-01",
+    "parent": null,
+    "team": "Requisitos",
+    "title": "Especificar estados da peça; transições válidas; causas de defeitos; critérios da encomenda",
+    "status": "em_revisao",
+    "depends_on": [
+      "P-01"
+    ],
+    "acceptance": "Cada resultado pode ser explicado pelas entradas e ações"
+  },
+  {
+    "id": "R-01.1",
+    "parent": "R-01",
+    "team": "Requisitos",
+    "title": "Especificar estados da peça; transições válidas",
+    "status": "em_revisao",
+    "depends_on": [
+      "P-01"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de R-01: Cada resultado pode ser explicado pelas entradas e ações"
+  },
+  {
+    "id": "R-01.2",
+    "parent": "R-01",
+    "team": "Requisitos",
+    "title": "causas de defeitos; critérios da encomenda",
+    "status": "em_revisao",
+    "depends_on": [
+      "R-01.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de R-01: Cada resultado pode ser explicado pelas entradas e ações"
+  },
+  {
+    "id": "R-02",
+    "parent": null,
+    "team": "Requisitos",
+    "title": "Definir pausa; retorno do background; autosave; tratamento de save inválido",
+    "status": "em_revisao",
+    "depends_on": [
+      "P-01"
+    ],
+    "acceptance": "Regras de recuperação e de não avanço durante ausência explícitas"
+  },
+  {
+    "id": "R-02.1",
+    "parent": "R-02",
+    "team": "Requisitos",
+    "title": "Definir pausa; retorno do background",
+    "status": "em_revisao",
+    "depends_on": [
+      "P-01"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de R-02: Regras de recuperação e de não avanço durante ausência explícitas"
+  },
+  {
+    "id": "R-02.2",
+    "parent": "R-02",
+    "team": "Requisitos",
+    "title": "autosave; tratamento de save inválido",
+    "status": "em_revisao",
+    "depends_on": [
+      "R-02.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de R-02: Regras de recuperação e de não avanço durante ausência explícitas"
+  },
+  {
+    "id": "O-02",
+    "parent": null,
+    "team": "Orquestração",
+    "title": "Definir arquivos de cada agente; contratos; ordem de integração; evidências esperadas",
+    "status": "em_revisao",
+    "depends_on": [
+      "O-01",
+      "R-01",
+      "R-02"
+    ],
+    "acceptance": "Edição concorrente sem disputa de arquivos e responsabilidades claras"
+  },
+  {
+    "id": "O-02.1",
+    "parent": "O-02",
+    "team": "Orquestração",
+    "title": "Definir arquivos de cada agente; contratos",
+    "status": "em_revisao",
+    "depends_on": [
+      "O-01",
+      "R-01",
+      "R-02"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de O-02: Edição concorrente sem disputa de arquivos e responsabilidades claras"
+  },
+  {
+    "id": "O-02.2",
+    "parent": "O-02",
+    "team": "Orquestração",
+    "title": "ordem de integração; evidências esperadas",
+    "status": "em_revisao",
+    "depends_on": [
+      "O-02.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de O-02: Edição concorrente sem disputa de arquivos e responsabilidades claras"
+  },
+  {
+    "id": "D-01",
+    "parent": null,
+    "team": "Design",
+    "title": "Desenhar oficina/bancadas; indicadores térmicos; painel da receita; inspeção",
+    "status": "em_revisao",
+    "depends_on": [
+      "R-01"
+    ],
+    "acceptance": "Cada ação, estado e próximo passo compreensíveis"
+  },
+  {
+    "id": "D-01.1",
+    "parent": "D-01",
+    "team": "Design",
+    "title": "Desenhar oficina/bancadas; indicadores térmicos",
+    "status": "em_revisao",
+    "depends_on": [
+      "R-01"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de D-01: Cada ação, estado e próximo passo compreensíveis"
+  },
+  {
+    "id": "D-01.2",
+    "parent": "D-01",
+    "team": "Design",
+    "title": "painel da receita; inspeção",
+    "status": "em_revisao",
+    "depends_on": [
+      "D-01.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de D-01: Cada ação, estado e próximo passo compreensíveis"
+  },
+  {
+    "id": "D-02",
+    "parent": null,
+    "team": "Design",
+    "title": "Definir feedback de erro; assistência; pausa; alternativas à cor/áudio",
+    "status": "em_revisao",
+    "depends_on": [
+      "R-01",
+      "R-02"
+    ],
+    "acceptance": "Falha comunica causa e possibilidade real de recuperação"
+  },
+  {
+    "id": "D-02.1",
+    "parent": "D-02",
+    "team": "Design",
+    "title": "Definir feedback de erro; assistência",
+    "status": "em_revisao",
+    "depends_on": [
+      "R-01",
+      "R-02"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de D-02: Falha comunica causa e possibilidade real de recuperação"
+  },
+  {
+    "id": "D-02.2",
+    "parent": "D-02",
+    "team": "Design",
+    "title": "pausa; alternativas à cor/áudio",
+    "status": "em_revisao",
+    "depends_on": [
+      "D-02.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de D-02: Falha comunica causa e possibilidade real de recuperação"
+  },
+  {
+    "id": "E-01",
+    "parent": null,
+    "team": "Desenvolvimento",
+    "title": "Criar projeto Godot; configurar viewport; organizar cenas/dados/scripts; documentar execução",
+    "status": "em_revisao",
+    "depends_on": [
+      "O-01",
+      "O-02"
+    ],
+    "acceptance": "Projeto importa sem erros na versão declarada"
+  },
+  {
+    "id": "E-01.1",
+    "parent": "E-01",
+    "team": "Desenvolvimento",
+    "title": "Criar projeto Godot; configurar viewport",
+    "status": "em_revisao",
+    "depends_on": [
+      "O-01",
+      "O-02"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-01: Projeto importa sem erros na versão declarada"
+  },
+  {
+    "id": "E-01.2",
+    "parent": "E-01",
+    "team": "Desenvolvimento",
+    "title": "organizar cenas/dados/scripts; documentar execução",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-01.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-01: Projeto importa sem erros na versão declarada"
+  },
+  {
+    "id": "E-02",
+    "parent": null,
+    "team": "Desenvolvimento",
+    "title": "Implementar calor abstrato 0–100; passos discretos de ações; limites e condições de falha",
+    "status": "em_revisao",
+    "depends_on": [
+      "R-01",
+      "E-01"
+    ],
+    "acceptance": "Mesma sequência de ações produz os mesmos estados; valores de calor ficam dentro dos limites"
+  },
+  {
+    "id": "E-02.1",
+    "parent": "E-02",
+    "team": "Desenvolvimento",
+    "title": "Implementar calor abstrato 0–100",
+    "status": "em_revisao",
+    "depends_on": [
+      "R-01",
+      "E-01"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-02: Mesma sequência de ações produz os mesmos estados; valores de calor ficam dentro dos limites"
+  },
+  {
+    "id": "E-02.2",
+    "parent": "E-02",
+    "team": "Desenvolvimento",
+    "title": "passos discretos de ações; limites e condições de falha",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-02.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-02: Mesma sequência de ações produz os mesmos estados; valores de calor ficam dentro dos limites"
+  },
+  {
+    "id": "E-03",
+    "parent": null,
+    "team": "Desenvolvimento",
+    "title": "Implementar escolha de material; trabalho na bigorna sem regiões; defeitos; acabamento; avaliação",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-02"
+    ],
+    "acceptance": "Mesma receita e ações geram o mesmo resultado; acabamento não elimina falha crítica"
+  },
+  {
+    "id": "E-03.1",
+    "parent": "E-03",
+    "team": "Desenvolvimento",
+    "title": "Implementar escolha de material; trabalho na bigorna sem regiões",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-02"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-03: Mesma receita e ações geram o mesmo resultado; acabamento não elimina falha crítica"
+  },
+  {
+    "id": "E-03.2",
+    "parent": "E-03",
+    "team": "Desenvolvimento",
+    "title": "defeitos; acabamento; avaliação",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-03.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-03: Mesma receita e ações geram o mesmo resultado; acabamento não elimina falha crítica"
+  },
+  {
+    "id": "E-04",
+    "parent": null,
+    "team": "Desenvolvimento",
+    "title": "Conectar UI de toque e mouse; estados de bancada; receita consultável; pausa",
+    "status": "em_revisao",
+    "depends_on": [
+      "D-01",
+      "D-02",
+      "E-03"
+    ],
+    "acceptance": "Receita executável do início à inspeção sem comandos de console"
+  },
+  {
+    "id": "E-04.1",
+    "parent": "E-04",
+    "team": "Desenvolvimento",
+    "title": "Conectar UI de toque e mouse; estados de bancada",
+    "status": "em_revisao",
+    "depends_on": [
+      "D-01",
+      "D-02",
+      "E-03"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-04: Receita executável do início à inspeção sem comandos de console"
+  },
+  {
+    "id": "E-04.2",
+    "parent": "E-04",
+    "team": "Desenvolvimento",
+    "title": "receita consultável; pausa",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-04.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-04: Receita executável do início à inspeção sem comandos de console"
+  },
+  {
+    "id": "Q-01",
+    "parent": null,
+    "team": "Testes",
+    "title": "Verificar material inválido; condições de calor inadequadas; ações fora de etapa; resultado válido",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-03"
+    ],
+    "acceptance": "Testes cobrem consequências relevantes e registram execução"
+  },
+  {
+    "id": "Q-01.1",
+    "parent": "Q-01",
+    "team": "Testes",
+    "title": "Verificar material inválido; condições de calor inadequadas",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-03"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de Q-01: Testes cobrem consequências relevantes e registram execução"
+  },
+  {
+    "id": "Q-01.2",
+    "parent": "Q-01",
+    "team": "Testes",
+    "title": "ações fora de etapa; resultado válido",
+    "status": "em_revisao",
+    "depends_on": [
+      "Q-01.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de Q-01: Testes cobrem consequências relevantes e registram execução"
+  },
+  {
+    "id": "E-05",
+    "parent": null,
+    "team": "Desenvolvimento",
+    "title": "Criar três clientes e encomendas para gancho/talhadeira/faca; aceite/rejeição; recompensa; reciclagem com recuperação de valor",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-03",
+      "E-04"
+    ],
+    "acceptance": "Ciclo completo; recompensa não pode ser resgatada duas vezes"
+  },
+  {
+    "id": "E-05.1",
+    "parent": "E-05",
+    "team": "Desenvolvimento",
+    "title": "Criar três clientes e encomendas para gancho/talhadeira/faca; aceite/rejeição",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-03",
+      "E-04"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-05: Ciclo completo; recompensa não pode ser resgatada duas vezes"
+  },
+  {
+    "id": "E-05.2",
+    "parent": "E-05",
+    "team": "Desenvolvimento",
+    "title": "recompensa; reciclagem com recuperação de valor",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-05.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-05: Ciclo completo; recompensa não pode ser resgatada duas vezes"
+  },
+  {
+    "id": "E-06",
+    "parent": null,
+    "team": "Desenvolvimento",
+    "title": "Salvar estado versionado; gravar em pontos seguros; restaurar; cópia de recuperação",
+    "status": "em_revisao",
+    "depends_on": [
+      "R-02",
+      "E-05"
+    ],
+    "acceptance": "Fechar e reabrir preserva progresso; corrupção não bloqueia início de jogo"
+  },
+  {
+    "id": "E-06.1",
+    "parent": "E-06",
+    "team": "Desenvolvimento",
+    "title": "Salvar estado versionado; gravar em pontos seguros",
+    "status": "em_revisao",
+    "depends_on": [
+      "R-02",
+      "E-05"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-06: Fechar e reabrir preserva progresso; corrupção não bloqueia início de jogo"
+  },
+  {
+    "id": "E-06.2",
+    "parent": "E-06",
+    "team": "Desenvolvimento",
+    "title": "restaurar; cópia de recuperação",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-06.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-06: Fechar e reabrir preserva progresso; corrupção não bloqueia início de jogo"
+  },
+  {
+    "id": "D-03",
+    "parent": null,
+    "team": "Design",
+    "title": "Criar tutorial curto; orientar primeira falha; ajustar alvos de toque e legibilidade",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-04",
+      "E-05"
+    ],
+    "acceptance": "Jogador entende objetivo e motivo de falha sem orientação externa"
+  },
+  {
+    "id": "D-03.1",
+    "parent": "D-03",
+    "team": "Design",
+    "title": "Criar tutorial curto",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-04",
+      "E-05"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de D-03: Jogador entende objetivo e motivo de falha sem orientação externa"
+  },
+  {
+    "id": "D-03.2",
+    "parent": "D-03",
+    "team": "Design",
+    "title": "orientar primeira falha; ajustar alvos de toque e legibilidade",
+    "status": "em_revisao",
+    "depends_on": [
+      "D-03.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de D-03: Jogador entende objetivo e motivo de falha sem orientação externa"
+  },
+  {
+    "id": "Q-02",
+    "parent": null,
+    "team": "Testes",
+    "title": "Executar três receitas; reaquecer sem apagar defeitos; reciclar; pause/resume; entrega e restart",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-05",
+      "E-06",
+      "D-03"
+    ],
+    "acceptance": "Evidência para cada fluxo e ausência de bloqueadores de progresso"
+  },
+  {
+    "id": "Q-02.1",
+    "parent": "Q-02",
+    "team": "Testes",
+    "title": "Executar três receitas; reaquecer sem apagar defeitos",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-05",
+      "E-06",
+      "D-03"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de Q-02: Evidência para cada fluxo e ausência de bloqueadores de progresso"
+  },
+  {
+    "id": "Q-02.2",
+    "parent": "Q-02",
+    "team": "Testes",
+    "title": "reciclar; pause/resume; entrega e restart",
+    "status": "em_revisao",
+    "depends_on": [
+      "Q-02.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de Q-02: Evidência para cada fluxo e ausência de bloqueadores de progresso"
+  },
+  {
+    "id": "S-02",
+    "parent": null,
+    "team": "Segurança",
+    "title": "Revisar parsing de saves/dados; limites de entrada; ausência de segredos e rede desnecessária",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-06"
+    ],
+    "acceptance": "Erros tratados; nenhuma credencial no pacote; dados coletados explicitados"
+  },
+  {
+    "id": "S-02.1",
+    "parent": "S-02",
+    "team": "Segurança",
+    "title": "Revisar parsing de saves/dados",
+    "status": "em_revisao",
+    "depends_on": [
+      "E-06"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de S-02: Erros tratados; nenhuma credencial no pacote; dados coletados explicitados"
+  },
+  {
+    "id": "S-02.2",
+    "parent": "S-02",
+    "team": "Segurança",
+    "title": "limites de entrada; ausência de segredos e rede desnecessária",
+    "status": "em_revisao",
+    "depends_on": [
+      "S-02.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de S-02: Erros tratados; nenhuma credencial no pacote; dados coletados explicitados"
+  },
+  {
+    "id": "O-03",
+    "parent": null,
+    "team": "Orquestração",
+    "title": "Integrar; empacotar fonte; escrever README; registrar testes e limitações",
+    "status": "em_integracao",
+    "depends_on": [
+      "Q-01",
+      "Q-02",
+      "S-02"
+    ],
+    "acceptance": "Outra pessoa consegue reproduzir execução com ferramentas declaradas"
+  },
+  {
+    "id": "O-03.1",
+    "parent": "O-03",
+    "team": "Orquestração",
+    "title": "Integrar; empacotar fonte",
+    "status": "em_integracao",
+    "depends_on": [
+      "Q-01",
+      "Q-02",
+      "S-02"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de O-03: Outra pessoa consegue reproduzir execução com ferramentas declaradas"
+  },
+  {
+    "id": "O-03.2",
+    "parent": "O-03",
+    "team": "Orquestração",
+    "title": "escrever README; registrar testes e limitações",
+    "status": "em_integracao",
+    "depends_on": [
+      "O-03.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de O-03: Outra pessoa consegue reproduzir execução com ferramentas declaradas"
+  },
+  {
+    "id": "I-01",
+    "parent": null,
+    "team": "Desenvolvimento",
+    "title": "Confirmar Mac/Xcode; instalar templates; configurar projeto iOS; compilar",
+    "status": "aguardando",
+    "depends_on": [
+      "E-01"
+    ],
+    "acceptance": "Build iOS registrado com versões e erros resolvidos"
+  },
+  {
+    "id": "I-01.1",
+    "parent": "I-01",
+    "team": "Desenvolvimento",
+    "title": "Confirmar Mac/Xcode; instalar templates",
+    "status": "aguardando",
+    "depends_on": [
+      "E-01"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de I-01: Build iOS registrado com versões e erros resolvidos"
+  },
+  {
+    "id": "I-01.2",
+    "parent": "I-01",
+    "team": "Desenvolvimento",
+    "title": "configurar projeto iOS; compilar",
+    "status": "aguardando",
+    "depends_on": [
+      "I-01.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de I-01: Build iOS registrado com versões e erros resolvidos"
+  },
+  {
+    "id": "I-02",
+    "parent": null,
+    "team": "Desenvolvimento",
+    "title": "Configurar assinatura autorizada; instalar em aparelho; validar lançamento",
+    "status": "aguardando",
+    "depends_on": [
+      "I-01"
+    ],
+    "acceptance": "Aplicativo abre em iPhone físico definido"
+  },
+  {
+    "id": "I-02.1",
+    "parent": "I-02",
+    "team": "Desenvolvimento",
+    "title": "Configurar assinatura autorizada",
+    "status": "aguardando",
+    "depends_on": [
+      "I-01"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de I-02: Aplicativo abre em iPhone físico definido"
+  },
+  {
+    "id": "I-02.2",
+    "parent": "I-02",
+    "team": "Desenvolvimento",
+    "title": "instalar em aparelho; validar lançamento",
+    "status": "aguardando",
+    "depends_on": [
+      "I-02.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de I-02: Aplicativo abre em iPhone físico definido"
+  },
+  {
+    "id": "Q-03",
+    "parent": null,
+    "team": "Testes",
+    "title": "Conferir toque, safe areas, áudio, rotação, background, retomada e performance",
+    "status": "aguardando",
+    "depends_on": [
+      "I-02",
+      "G2"
+    ],
+    "acceptance": "Relatório no dispositivo; metas de desempenho e aparelhos explicitados"
+  },
+  {
+    "id": "D-04",
+    "parent": null,
+    "team": "Design",
+    "title": "Observar jogadores; registrar compreensão, repetição e frustração; ajustar interação",
+    "status": "aguardando",
+    "depends_on": [
+      "G2"
+    ],
+    "acceptance": "Problemas observados priorizados e hipótese de diversão reavaliada"
+  },
+  {
+    "id": "D-04.1",
+    "parent": "D-04",
+    "team": "Design",
+    "title": "Observar jogadores",
+    "status": "aguardando",
+    "depends_on": [
+      "G2"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de D-04: Problemas observados priorizados e hipótese de diversão reavaliada"
+  },
+  {
+    "id": "D-04.2",
+    "parent": "D-04",
+    "team": "Design",
+    "title": "registrar compreensão, repetição e frustração; ajustar interação",
+    "status": "aguardando",
+    "depends_on": [
+      "D-04.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de D-04: Problemas observados priorizados e hipótese de diversão reavaliada"
+  },
+  {
+    "id": "R-03",
+    "parent": null,
+    "team": "Requisitos",
+    "title": "Revisar processo com especialista; separar abstração de prática real; corrigir alegações",
+    "status": "aguardando",
+    "depends_on": [
+      "R-01",
+      "G2"
+    ],
+    "acceptance": "Conteúdo e comunicação aprovados para o grau de realismo declarado"
+  },
+  {
+    "id": "R-03.1",
+    "parent": "R-03",
+    "team": "Requisitos",
+    "title": "Revisar processo com especialista",
+    "status": "aguardando",
+    "depends_on": [
+      "R-01",
+      "G2"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de R-03: Conteúdo e comunicação aprovados para o grau de realismo declarado"
+  },
+  {
+    "id": "R-03.2",
+    "parent": "R-03",
+    "team": "Requisitos",
+    "title": "separar abstração de prática real; corrigir alegações",
+    "status": "aguardando",
+    "depends_on": [
+      "R-03.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de R-03: Conteúdo e comunicação aprovados para o grau de realismo declarado"
+  },
+  {
+    "id": "B-01",
+    "parent": null,
+    "team": "Negócios",
+    "title": "Definir público; examinar concorrentes; testar compra única/demo; estimar custo a partir da produção real",
+    "status": "aguardando",
+    "depends_on": [
+      "D-04"
+    ],
+    "acceptance": "Hipóteses e evidências separadas; decisão comercial registrada"
+  },
+  {
+    "id": "B-01.1",
+    "parent": "B-01",
+    "team": "Negócios",
+    "title": "Definir público; examinar concorrentes",
+    "status": "aguardando",
+    "depends_on": [
+      "D-04"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de B-01: Hipóteses e evidências separadas; decisão comercial registrada"
+  },
+  {
+    "id": "B-01.2",
+    "parent": "B-01",
+    "team": "Negócios",
+    "title": "testar compra única/demo; estimar custo a partir da produção real",
+    "status": "aguardando",
+    "depends_on": [
+      "B-01.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de B-01: Hipóteses e evidências separadas; decisão comercial registrada"
+  },
+  {
+    "id": "C-01",
+    "parent": null,
+    "team": "Design/Desenvolvimento",
+    "title": "Ampliar famílias de receitas; alternativas de materiais; diferenças de processo",
+    "status": "aguardando",
+    "depends_on": [
+      "G3",
+      "R-03"
+    ],
+    "acceptance": "Cada receita acrescenta decisão relevante; dados validados"
+  },
+  {
+    "id": "C-01.1",
+    "parent": "C-01",
+    "team": "Design/Desenvolvimento",
+    "title": "Ampliar famílias de receitas",
+    "status": "aguardando",
+    "depends_on": [
+      "G3",
+      "R-03"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de C-01: Cada receita acrescenta decisão relevante; dados validados"
+  },
+  {
+    "id": "C-01.2",
+    "parent": "C-01",
+    "team": "Design/Desenvolvimento",
+    "title": "alternativas de materiais; diferenças de processo",
+    "status": "aguardando",
+    "depends_on": [
+      "C-01.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de C-01: Cada receita acrescenta decisão relevante; dados validados"
+  },
+  {
+    "id": "C-02",
+    "parent": null,
+    "team": "Design",
+    "title": "Produzir personagens, pedidos, diálogos e arco curto",
+    "status": "aguardando",
+    "depends_on": [
+      "G3"
+    ],
+    "acceptance": "Progressão narrativa sem referências a recursos inexistentes"
+  },
+  {
+    "id": "E-07",
+    "parent": null,
+    "team": "Desenvolvimento",
+    "title": "Implementar upgrades, catálogo, domínio, estoque e progressão",
+    "status": "aguardando",
+    "depends_on": [
+      "C-01",
+      "C-02"
+    ],
+    "acceptance": "Desbloqueios e economia completáveis sem bloqueio permanente"
+  },
+  {
+    "id": "D-05",
+    "parent": null,
+    "team": "Design",
+    "title": "Produzir arte/áudio finais; decoração; feedback acessível",
+    "status": "aguardando",
+    "depends_on": [
+      "G3"
+    ],
+    "acceptance": "Consistência, autoria/licenças e desempenho verificados"
+  },
+  {
+    "id": "D-05.1",
+    "parent": "D-05",
+    "team": "Design",
+    "title": "Produzir arte/áudio finais",
+    "status": "aguardando",
+    "depends_on": [
+      "G3"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de D-05: Consistência, autoria/licenças e desempenho verificados"
+  },
+  {
+    "id": "D-05.2",
+    "parent": "D-05",
+    "team": "Design",
+    "title": "decoração; feedback acessível",
+    "status": "aguardando",
+    "depends_on": [
+      "D-05.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de D-05: Consistência, autoria/licenças e desempenho verificados"
+  },
+  {
+    "id": "Q-04",
+    "parent": null,
+    "team": "Testes",
+    "title": "Verificar progressão; exploits econômicos; migração de save; regressão em aparelhos",
+    "status": "aguardando",
+    "depends_on": [
+      "E-07",
+      "D-05"
+    ],
+    "acceptance": "Fluxos críticos aprovados; defeitos remanescentes classificados"
+  },
+  {
+    "id": "Q-04.1",
+    "parent": "Q-04",
+    "team": "Testes",
+    "title": "Verificar progressão; exploits econômicos",
+    "status": "aguardando",
+    "depends_on": [
+      "E-07",
+      "D-05"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de Q-04: Fluxos críticos aprovados; defeitos remanescentes classificados"
+  },
+  {
+    "id": "Q-04.2",
+    "parent": "Q-04",
+    "team": "Testes",
+    "title": "migração de save; regressão em aparelhos",
+    "status": "aguardando",
+    "depends_on": [
+      "Q-04.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de Q-04: Fluxos críticos aprovados; defeitos remanescentes classificados"
+  },
+  {
+    "id": "R-04",
+    "parent": null,
+    "team": "Requisitos/Design",
+    "title": "Especificar tratamento térmico por família/material; mapear abstrações e limites",
+    "status": "aguardando",
+    "depends_on": [
+      "R-03"
+    ],
+    "acceptance": "Processo revisado profissionalmente e diferente onde o material exigir"
+  },
+  {
+    "id": "R-04.1",
+    "parent": "R-04",
+    "team": "Requisitos/Design",
+    "title": "Especificar tratamento térmico por família/material",
+    "status": "aguardando",
+    "depends_on": [
+      "R-03"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de R-04: Processo revisado profissionalmente e diferente onde o material exigir"
+  },
+  {
+    "id": "R-04.2",
+    "parent": "R-04",
+    "team": "Requisitos/Design",
+    "title": "mapear abstrações e limites",
+    "status": "aguardando",
+    "depends_on": [
+      "R-04.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de R-04: Processo revisado profissionalmente e diferente onde o material exigir"
+  },
+  {
+    "id": "E-08",
+    "parent": null,
+    "team": "Desenvolvimento",
+    "title": "Implementar tratamento térmico; registrar histórico relevante; avaliar consequências",
+    "status": "aguardando",
+    "depends_on": [
+      "R-04"
+    ],
+    "acceptance": "Sequência modifica propriedades sem permitir compensar falha crítica por acabamento"
+  },
+  {
+    "id": "E-08.1",
+    "parent": "E-08",
+    "team": "Desenvolvimento",
+    "title": "Implementar tratamento térmico",
+    "status": "aguardando",
+    "depends_on": [
+      "R-04"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-08: Sequência modifica propriedades sem permitir compensar falha crítica por acabamento"
+  },
+  {
+    "id": "E-08.2",
+    "parent": "E-08",
+    "team": "Desenvolvimento",
+    "title": "registrar histórico relevante; avaliar consequências",
+    "status": "aguardando",
+    "depends_on": [
+      "E-08.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-08: Sequência modifica propriedades sem permitir compensar falha crítica por acabamento"
+  },
+  {
+    "id": "E-09",
+    "parent": null,
+    "team": "Desenvolvimento/Design",
+    "title": "Implementar conformação por regiões; feedback geométrico; controles de toque",
+    "status": "aguardando",
+    "depends_on": [
+      "D-04",
+      "R-03"
+    ],
+    "acceptance": "A região trabalhada muda a forma e o resultado de modo compreensível"
+  },
+  {
+    "id": "E-09.1",
+    "parent": "E-09",
+    "team": "Desenvolvimento/Design",
+    "title": "Implementar conformação por regiões",
+    "status": "aguardando",
+    "depends_on": [
+      "D-04",
+      "R-03"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-09: A região trabalhada muda a forma e o resultado de modo compreensível"
+  },
+  {
+    "id": "E-09.2",
+    "parent": "E-09",
+    "team": "Desenvolvimento/Design",
+    "title": "feedback geométrico; controles de toque",
+    "status": "aguardando",
+    "depends_on": [
+      "E-09.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-09: A região trabalhada muda a forma e o resultado de modo compreensível"
+  },
+  {
+    "id": "E-10",
+    "parent": null,
+    "team": "Desenvolvimento/Design",
+    "title": "Implementar componentes e montagem; compatibilidade; integridade do conjunto",
+    "status": "aguardando",
+    "depends_on": [
+      "R-03",
+      "C-01"
+    ],
+    "acceptance": "Componentes inválidos são tratados e montagem influencia a avaliação"
+  },
+  {
+    "id": "E-10.1",
+    "parent": "E-10",
+    "team": "Desenvolvimento/Design",
+    "title": "Implementar componentes e montagem",
+    "status": "aguardando",
+    "depends_on": [
+      "R-03",
+      "C-01"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-10: Componentes inválidos são tratados e montagem influencia a avaliação"
+  },
+  {
+    "id": "E-10.2",
+    "parent": "E-10",
+    "team": "Desenvolvimento/Design",
+    "title": "compatibilidade; integridade do conjunto",
+    "status": "aguardando",
+    "depends_on": [
+      "E-10.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-10: Componentes inválidos são tratados e montagem influencia a avaliação"
+  },
+  {
+    "id": "E-11",
+    "parent": null,
+    "team": "Desenvolvimento/Design",
+    "title": "Implementar correções de defeitos recuperáveis; custos e limites; explicar irreversibilidade",
+    "status": "aguardando",
+    "depends_on": [
+      "R-03",
+      "E-08"
+    ],
+    "acceptance": "Correções previstas funcionam sem apagar defeitos irreversíveis"
+  },
+  {
+    "id": "E-11.1",
+    "parent": "E-11",
+    "team": "Desenvolvimento/Design",
+    "title": "Implementar correções de defeitos recuperáveis",
+    "status": "aguardando",
+    "depends_on": [
+      "R-03",
+      "E-08"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-11: Correções previstas funcionam sem apagar defeitos irreversíveis"
+  },
+  {
+    "id": "E-11.2",
+    "parent": "E-11",
+    "team": "Desenvolvimento/Design",
+    "title": "custos e limites; explicar irreversibilidade",
+    "status": "aguardando",
+    "depends_on": [
+      "E-11.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de E-11: Correções previstas funcionam sem apagar defeitos irreversíveis"
+  },
+  {
+    "id": "Q-05",
+    "parent": null,
+    "team": "Testes",
+    "title": "Verificar evolução metalúrgica; regressão do ciclo; diagnósticos e salvamento expandido",
+    "status": "aguardando",
+    "depends_on": [
+      "E-08",
+      "E-09",
+      "E-10",
+      "E-11"
+    ],
+    "acceptance": "Regras aprovadas e fluxos anteriores continuam reproduzíveis"
+  },
+  {
+    "id": "Q-05.1",
+    "parent": "Q-05",
+    "team": "Testes",
+    "title": "Verificar evolução metalúrgica",
+    "status": "aguardando",
+    "depends_on": [
+      "E-08",
+      "E-09",
+      "E-10",
+      "E-11"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de Q-05: Regras aprovadas e fluxos anteriores continuam reproduzíveis"
+  },
+  {
+    "id": "Q-05.2",
+    "parent": "Q-05",
+    "team": "Testes",
+    "title": "regressão do ciclo; diagnósticos e salvamento expandido",
+    "status": "aguardando",
+    "depends_on": [
+      "Q-05.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de Q-05: Regras aprovadas e fluxos anteriores continuam reproduzíveis"
+  },
+  {
+    "id": "S-03",
+    "parent": null,
+    "team": "Segurança/Negócios",
+    "title": "Inventariar SDKs e dados; revisar privacidade; conferir licenças e obrigações",
+    "status": "aguardando",
+    "depends_on": [
+      "G4"
+    ],
+    "acceptance": "Declarações correspondem ao comportamento real do app"
+  },
+  {
+    "id": "S-03.1",
+    "parent": "S-03",
+    "team": "Segurança/Negócios",
+    "title": "Inventariar SDKs e dados",
+    "status": "aguardando",
+    "depends_on": [
+      "G4"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de S-03: Declarações correspondem ao comportamento real do app"
+  },
+  {
+    "id": "S-03.2",
+    "parent": "S-03",
+    "team": "Segurança/Negócios",
+    "title": "revisar privacidade; conferir licenças e obrigações",
+    "status": "aguardando",
+    "depends_on": [
+      "S-03.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de S-03: Declarações correspondem ao comportamento real do app"
+  },
+  {
+    "id": "B-02",
+    "parent": null,
+    "team": "Negócios",
+    "title": "Preparar título, descrição, screenshots reais, classificação e modelo de venda",
+    "status": "aguardando",
+    "depends_on": [
+      "B-01",
+      "G4"
+    ],
+    "acceptance": "Material comercial fiel ao build e requisitos atuais verificados"
+  },
+  {
+    "id": "I-03",
+    "parent": null,
+    "team": "Desenvolvimento/QA",
+    "title": "Preparar distribuição de teste; coletar defeitos; corrigir bloqueadores",
+    "status": "aguardando",
+    "depends_on": [
+      "Q-04",
+      "S-03"
+    ],
+    "acceptance": "Build candidato testado por fluxo real de distribuição"
+  },
+  {
+    "id": "I-03.1",
+    "parent": "I-03",
+    "team": "Desenvolvimento/QA",
+    "title": "Preparar distribuição de teste",
+    "status": "aguardando",
+    "depends_on": [
+      "Q-04",
+      "S-03"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de I-03: Build candidato testado por fluxo real de distribuição"
+  },
+  {
+    "id": "I-03.2",
+    "parent": "I-03",
+    "team": "Desenvolvimento/QA",
+    "title": "coletar defeitos; corrigir bloqueadores",
+    "status": "aguardando",
+    "depends_on": [
+      "I-03.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de I-03: Build candidato testado por fluxo real de distribuição"
+  },
+  {
+    "id": "O-04",
+    "parent": null,
+    "team": "Orquestração",
+    "title": "Compilar evidências; documentar pendências; preparar submissão revisável",
+    "status": "aguardando",
+    "depends_on": [
+      "B-02",
+      "I-03"
+    ],
+    "acceptance": "Release possui código, build, testes e metadados identificados"
+  },
+  {
+    "id": "O-04.1",
+    "parent": "O-04",
+    "team": "Orquestração",
+    "title": "Compilar evidências",
+    "status": "aguardando",
+    "depends_on": [
+      "B-02",
+      "I-03"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de O-04: Release possui código, build, testes e metadados identificados"
+  },
+  {
+    "id": "O-04.2",
+    "parent": "O-04",
+    "team": "Orquestração",
+    "title": "documentar pendências; preparar submissão revisável",
+    "status": "aguardando",
+    "depends_on": [
+      "O-04.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de O-04: Release possui código, build, testes e metadados identificados"
+  },
+  {
+    "id": "B-03",
+    "parent": null,
+    "team": "Negócios",
+    "title": "Executar submissão/publicação quando houver acesso e autorização aplicável",
+    "status": "aguardando",
+    "depends_on": [
+      "O-04"
+    ],
+    "acceptance": "Estado da loja confirmado; aprovação externa não presumida"
+  },
+  {
+    "id": "O-05",
+    "parent": null,
+    "team": "Orquestração",
+    "title": "Triar feedback; corrigir falhas; planejar expansão com base no uso",
+    "status": "aguardando",
+    "depends_on": [
+      "B-03"
+    ],
+    "acceptance": "Prioridades vinculadas a problemas observados"
+  },
+  {
+    "id": "O-05.1",
+    "parent": "O-05",
+    "team": "Orquestração",
+    "title": "Triar feedback",
+    "status": "aguardando",
+    "depends_on": [
+      "B-03"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de O-05: Prioridades vinculadas a problemas observados"
+  },
+  {
+    "id": "O-05.2",
+    "parent": "O-05",
+    "team": "Orquestração",
+    "title": "corrigir falhas; planejar expansão com base no uso",
+    "status": "aguardando",
+    "depends_on": [
+      "O-05.1"
+    ],
+    "acceptance": "Evidência revisável desta subtask registrada; contribuir para o aceite de O-05: Prioridades vinculadas a problemas observados"
+  },
+  {
+    "id": "G0",
+    "parent": null,
+    "team": "Orquestração",
+    "title": "Aceitar escopo e contratos",
+    "status": "aguardando",
+    "depends_on": [
+      "P-01",
+      "O-02",
+      "R-01",
+      "R-02"
+    ],
+    "acceptance": "Orquestrador confirma evidências e registra decisão explícita; existência de arquivos ou testes não encerra o marco automaticamente."
+  },
+  {
+    "id": "G1",
+    "parent": null,
+    "team": "Orquestração",
+    "title": "Aceitar regras e interface local",
+    "status": "aguardando",
+    "depends_on": [
+      "E-04",
+      "Q-01"
+    ],
+    "acceptance": "Orquestrador confirma evidências e registra decisão explícita; existência de arquivos ou testes não encerra o marco automaticamente."
+  },
+  {
+    "id": "G2",
+    "parent": null,
+    "team": "Orquestração",
+    "title": "Aceitar explicitamente a demo local integrada",
+    "status": "aguardando",
+    "depends_on": [
+      "O-03"
+    ],
+    "acceptance": "Orquestrador confirma evidências e registra decisão explícita; existência de arquivos ou testes não encerra o marco automaticamente."
+  },
+  {
+    "id": "G3",
+    "parent": null,
+    "team": "Orquestração",
+    "title": "Aceitar experiência em iPhone e decisão de expansão",
+    "status": "aguardando",
+    "depends_on": [
+      "Q-03",
+      "D-04",
+      "R-03",
+      "B-01"
+    ],
+    "acceptance": "Orquestrador confirma evidências e registra decisão explícita; existência de arquivos ou testes não encerra o marco automaticamente."
+  },
+  {
+    "id": "G4",
+    "parent": null,
+    "team": "Orquestração",
+    "title": "Aceitar candidato MVP completo",
+    "status": "aguardando",
+    "depends_on": [
+      "Q-04",
+      "Q-05"
+    ],
+    "acceptance": "Orquestrador confirma evidências e registra decisão explícita; existência de arquivos ou testes não encerra o marco automaticamente."
+  }
+]
